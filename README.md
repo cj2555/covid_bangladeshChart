@@ -1,4 +1,4 @@
-# covid-19-visualization
+# covid-19-data-visualization-bangladesh
 
 ## Project setup
 ```
