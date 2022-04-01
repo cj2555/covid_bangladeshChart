@@ -2,16 +2,19 @@
   "name": "covid-19-visualization",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/cj2555/covid-19-visualization",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
     "core-js": "^3.6.4",
+    "gh-pages": "^3.2.3",
     "moment": "^2.24.0",
     "vue": "^2.6.11",
     "vue-chartjs": "^3.5.0"
